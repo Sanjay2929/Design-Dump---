@@ -241,11 +241,11 @@
 }
 
 
-.hover_img:hover{
-    transform:scale(1.1)
-    
+.hover_img:hover {
+    transform: scale(1.1)
 }
-.transition{
+
+.transition {
     transition: all 1s linear;
 }
 
@@ -254,6 +254,50 @@
 .hover_img1:hover {
     transform: scale(1.03)
 }
+
+
+.design_animation:hover {
+    animation-name: disign;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    
+
+
+
+}
+
+@keyframes disign {
+    0% {
+        rotate: 0deg;
+    }
+
+    20% {
+        rotate: 5deg;
+    }
+
+    40% {
+        rotate: 0deg;
+    }
+
+    60% {
+        rotate: -5deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
