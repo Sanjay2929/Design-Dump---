@@ -260,9 +260,7 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     cursor: pointer;
-
-
-
+    text-shadow: 5px 3px 3px #3f4a53;
 
 }
 
@@ -511,7 +509,7 @@
     }
 
     .fs_98 {
-        font-size: 98px;
+        font-size: 90px;
     }
 
     .grid-item1 {
@@ -643,6 +641,10 @@
 @media (min-width:1200px) {
     .grid_gap {
         grid-gap: 30px;
+    }
+
+    .fs_98 {
+        font-size: 98px;
     }
 }
 
