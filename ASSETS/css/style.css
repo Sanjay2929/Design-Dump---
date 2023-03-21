@@ -242,7 +242,7 @@
 
 
 .hover_img:hover {
-    transform: scale(1.1)
+    transform: scale(1.05)
 }
 
 .transition {
@@ -261,7 +261,7 @@
     animation-duration: .5s;
     animation-iteration-count: infinite;
     cursor: pointer;
-    
+
 
 
 
@@ -507,6 +507,10 @@
 }
 
 @media (min-width:992px) {
+    .hover_img:hover {
+        transform: scale(1.08)
+    }
+
     .grid_gap {
         grid-gap: 15px;
     }
